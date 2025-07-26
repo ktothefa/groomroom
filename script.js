@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Contact form submission
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -24,4 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
     );
 
     observer.observe(servicesSection);
+=======
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your message! We will get back to you soon.');
+    this.reset();
+>>>>>>> ff55985aa481a8c8077e6f4787f0c2d4b15dcad6
 });
