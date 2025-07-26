@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groom Room Barber Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Groom Room</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book" class="btn">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Groom Room Barber Shop</h2>
+        <p>Premium haircuts, shaves, and grooming services for the modern man.</p>
+        <a href="#book" class="btn">Book Your Appointment</a>
+    </section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="services-content">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <img src="haircut.jpg" alt="Classic Haircut" class="service-image">
+                <h3>Classic Haircut</h3>
+                <p>$25 - Precision cut tailored to your style.</p>
+            </div>
+            <div class="service-item">
+                <img src="beard.jpg" alt="Beard Trim" class="service-image">
+                <h3>Beard Trim</h3>
+                <p>$15 - Clean and sharp beard grooming.</p>
+            </div>
+            <div class="service-item">
+                <img src="shave.jpg" alt="Hot Shave" class="service-image">
+                <h3>Hot Shave</h3>
+                <p>$20 - Traditional hot towel shave experience.</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-container">
+        <video class="background-video" muted loop poster="video-poster.jpg">
+            <source src="barber-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Groom Room, we pride ourselves on delivering top-notch grooming services in a welcoming environment. Our skilled barbers are dedicated to making you look and feel your best.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (233) 508889907</p>
+        <p>Email: info@groomroom.com</p>
+        <p>Address: West Legon Estate,Accra</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Groom Room Barber Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
